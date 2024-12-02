@@ -14,7 +14,7 @@ This script automates the process of identifying and notifying about Common Vuln
 
 ## Prerequisites  
 
-- **cveMap**: Ensure `cveMap` is installed and accessible from the terminal.  
+- **cveMap**: Ensure [cveMap](https://github.com/projectdiscovery/cvemap) is installed and accessible from the terminal.
 - **jq**: JSON processor for parsing CVE data (`jq` should be installed).  
 - **curl**: For sending Slack notifications.  
 
