@@ -10,7 +10,10 @@ This script automates the process of identifying and notifying about Common Vuln
 - **Execution Logging**: Logs the time and date of each script execution in `script_run.log`.  
 - **Product and CPE Input**: Supports single products/CPEs or batch processing from files.  
 - **Colorized Output**: Displays CVE ID in red and product name in blue.  
-- **Slack Notification Toggle**: Allows enabling or disabling Slack notifications via the `-dn` flag.  
+- **Slack Notification Toggle**: Allows enabling or disabling Slack notifications via the `-dn` flag.
+
+![Alt text](https://raw.githubusercontent.com/atikrahman1/cvetracker/refs/heads/main/Slack-notification-preview.png)
+
 
 ## Prerequisites  
 
