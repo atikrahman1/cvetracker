@@ -102,4 +102,12 @@ This script automates the process of identifying and notifying about Common Vuln
 
 - Add email notifications for CVE alerts.  
 - Implement support for additional CVE tracking tools.  
-- Add retry logic for Slack notifications in case of network failures.  
+- Add retry logic for Slack notifications in case of network failures.
+
+- ## Contact Me  
+
+Feel free to reach out if you have any questions, feedback, or collaboration opportunities:
+
+- **LinkedIn**: [Atikqur Rahman](https://www.linkedin.com/in/atikqur-rahman/)  
+- **X (formerly Twitter)**: [@atikqur007](https://x.com/atikqur007)  
+
