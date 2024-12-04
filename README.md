@@ -1,7 +1,16 @@
 
 # CVE Tracker Script  
 
-This script automates the process of identifying and notifying about Common Vulnerabilities and Exposures (CVEs) associated with specific products or CPEs (Common Platform Enumerations). It integrates with Slack to send notifications, logs each execution, and appends newly discovered CVEs to a JSON file (`reported.json`).  
+This **CVE Tracker** is a wrapper script designed to automate the detection, tracking, and reporting of Common Vulnerabilities and Exposures (CVEs) for specific products or Common Platform Enumerations (CPEs). 
+The script leverages the **`cvemap`** tool to fetch vulnerability information from various sources. It processes the results, sends notifications to Slack, and logs all relevant details in a JSON file (`reported.json`) to avoid duplicate reports.
+
+With this script, security teams can:
+- Automate CVE discovery based on product names or CPEs.
+- Get real-time Slack notifications for critical vulnerabilities.
+- Track previously reported vulnerabilities in a centralized JSON file.
+- Simplify repetitive security tasks and integrate with other monitoring tools.
+
+This script is especially useful for DevSecOps teams, security researchers, and system administrators who need a streamlined way to monitor vulnerabilities in their infrastructure or applications.
 
 ## Features  
 
